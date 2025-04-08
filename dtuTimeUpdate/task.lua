@@ -323,7 +323,7 @@ function readMobusRTU_Registers_ALL()
 
     plcRegistersValues[27] = 0
     plcRegistersValues[28] = mobile.iccid()
-    plcRegistersValues[29] = mobile.rssi()
+    plcRegistersValues[29] = mobile.csq()
 
 end
 -- 更新寄存器值

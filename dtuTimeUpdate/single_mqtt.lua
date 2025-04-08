@@ -4,7 +4,7 @@ require("queue")
 -- A MQTT 服务器 链接 上海皋翰自动化设备有限公司 TLINK 平台
 -- B MQTT 服务器 链接 崇成云 平台
 local mqtt_server_A_host = "1883.dtuip.com"
-local mqtt_server_B_host = "1.0.104.111" -- 49.7.227.121 203.0.104.111
+local mqtt_server_B_host = "203.0.104.111" -- 49.7.227.121 203.0.104.111
 local mqtt_server_A_port = 1883
 local mqtt_server_B_port = 1883
 local mqtt_server_A_isssl = false
